@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    data-username: root
+    data-password: 0326
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/blog
+    type: com.alibaba.druid.pool.DruidDataSource
+
+  data:
+    elasticsearch:
+      hostAndPort: localhost:9200
+
